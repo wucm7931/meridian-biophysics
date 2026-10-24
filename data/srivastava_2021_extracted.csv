@@ -1,0 +1,79 @@
+species,tissue,cell_type,type,rmp_mv,sd,n,source,paired_id,notes
+# 列字典：rmp_mv=静息膜电位（mV，带符号值，胞内为负）；sd=标准差；n=样本数；source=S#=Srivastava 2021 原文 Supplementary Table S1 行号；paired_id=与 SI Table S2 的配对 ID 对应。QT-35 已采用纠正值 −20.7（见 SI Note 3）。
+# ====== 人类配对数据 ======
+Human,Cervix,Normal Endocervix cells,Normal,-33,,20-25,S10_Lash1955,CX1,古老方法
+Human,Cervix,Carcinoma of cervix,Cancer,-22,,20-25,S10_Lash1955,CX1,ratio=0.67
+Human,Stomach,Normal mucous gastric (fundus),Normal,-56,,,S11_Tokuoka1957,GA1,古老方法
+Human,Stomach,Gastric cancer (carcinoma simplex+adenocarcinoma),Cancer,-24,,,S11_Tokuoka1957,GA1,ratio=0.43
+Human,Stomach,Normal mucous gastric (gastritis+ulceration),Normal,-34,,,S11_Tokuoka1957,GA2,炎症对照
+Human,Stomach,Gastric cancer (carcinoma simplex+adenocarcinoma),Cancer,-24,,,S11_Tokuoka1957,GA2,ratio=0.71(炎症基线)
+Human,Thyroid,Normal thyroid,Normal,-36.6,1.7(SEM),3,S12_Jamakosmanovic1968,TH1,
+Human,Thyroid,Medullary thyroid carcinoma,Cancer,-50.1,8.9,46,S20_Sand1986,TH1,ratio=1.37 超极化型!
+Human,Breast,MCF 10A (subconfluent monolayer),Normal,-58.1,5.8,28,S9_Marino1994,BR1,Proliferative normal
+Human,Breast,MCF 7 ER+ (subconfluent monolayer),Cancer,-42.1,5.3,33,S9_Marino1994,BR1,ratio=0.72
+Human,Breast,MCF 10A (subconfluent monolayer),Normal,-58.1,5.8,28,S9_Marino1994,BR2,
+Human,Breast,MDA 435 L2 ER- (subconfluent monolayer),Cancer,-51.8,8,45,S9_Marino1994,BR2,ratio=0.89
+Human,Breast,MCF 10A (subconfluent monolayer),Normal,-58.1,5.8,28,S9_Marino1994,BR3,
+Human,Breast,Intraductal carcinoma,Cancer,-13.3,2.2,9,S9_Marino1994,BR3,ratio=0.23 极端去极化
+Human,Brain,Normal glia (cerebral cortex),Normal,-69,10,80,S8_Picker1981,GL_all,胶质瘤分级基线
+Human,Brain,Well-differentiated astrocytoma (Grade I),Cancer,-70,8,19,S8_Picker1981,GL_all,ratio=1.01 几乎正常
+Human,Brain,Anaplastic astrocytoma (Grade II),Cancer,-59,12,117,S8_Picker1981,GL_all,ratio=0.86
+Human,Brain,Mixed glial tumor: astroglial (Grade III),Cancer,-51,11,7,S8_Picker1981,GL_all,ratio=0.74
+Human,Brain,Mixed glial tumor: oligodendroglial (Grade III),Cancer,-53,3,5,S8_Picker1981,GL_all,ratio=0.77
+Human,Brain,Glioblastoma multiform (Grade IV),Cancer,-40,7,122,S8_Picker1981,GL_all,ratio=0.58
+# ====== 啮齿配对数据 ======
+Rodent,Skin/Squamous,Skin cells—mice,Normal,-31.5,0.3(SEM),64,S34_Chowdhury1973,SK1,
+Rodent,Skin/Squamous,Cancer (squamous epithelium)—mice,Cancer,-18.5,1(SEM),216,S34_Chowdhury1973,SK1,ratio=0.59
+Rodent,Thyroid,Normal thyroid hamster,Normal,-38.5,0.7(SEM),19,S12_Jamakosmanovic1968,TH2,
+Rodent,Thyroid,Cancerous hamster,Cancer,-22.6,0.5(SEM),23,S12_Jamakosmanovic1968,TH2,ratio=0.59
+Rodent,Liver,Rat hepatocytes,Normal,-37.1,4.3,70,S36_Binggeli1980,LI1,
+Rodent,Liver,Rat hepatoma,Cancer,-19.8,7.1,97,S36_Binggeli1980,LI1,ratio=0.53
+Rodent,Fibroblast,Mouse corneal fibroblast,Normal,-42.5,5.4,31,S36_Binggeli1980,FI1,
+Rodent,Fibroblast,Mouse fibrosarcoma,Cancer,-14.3,5.4,33,S36_Binggeli1980,FI1,ratio=0.34
+Rodent,Fibroblast,Quail fibroblasts,Normal,-40.1,8.89,78,S23_Binggeli1985,FI2,Quail
+Rodent,Fibroblast,Quail fibrosarcoma (QT-35),Cancer,-20.7,5.96,120,S23_Binggeli1985,FI2,ratio=0.52 已纠正(见SI Note 3)
+Rodent,Thyroid,Normal rat thyroid,Normal,-47.2,0.6(SEM),30,S12_Jamakosmanovic1968,TH3,
+Rodent,Thyroid,Rat ca. type 1-1C2,Cancer,-31.7,0.9(SEM),10,S12_Jamakosmanovic1968,TH3,ratio=0.67
+Rodent,Thyroid,Rat ca. type 1-1D,Cancer,-26.8,1.2(SEM),14,S12_Jamakosmanovic1968,TH3,ratio=0.57
+Rodent,Thyroid,Rat ca. type 1-8,Cancer,-26.4,1.7(SEM),8,S12_Jamakosmanovic1968,TH3,ratio=0.56
+Rodent,Thyroid,Rat ca. type 1-4,Cancer,-26.6,0.5(SEM),35,S12_Jamakosmanovic1968,TH3,ratio=0.56
+Rodent,Thyroid,Rat ca. type 1-5A,Cancer,-24.4,0.7(SEM),11,S12_Jamakosmanovic1968,TH3,ratio=0.52
+Rodent,Thyroid,Rat ca. type 1-5E,Cancer,-23.6,0.6(SEM),12,S12_Jamakosmanovic1968,TH3,ratio=0.50
+Rodent,Thyroid,Rat ca. type 1-6,Cancer,-31.7,0.8(SEM),11,S12_Jamakosmanovic1968,TH3,ratio=0.67
+Rodent,Thyroid,Rat ca. type 1-7,Cancer,-21.7,0.6(SEM),11,S12_Jamakosmanovic1968,TH3,ratio=0.46
+Rodent,Thyroid,Rat ca. type 16-1,Cancer,-23.8,1.4(SEM),5,S12_Jamakosmanovic1968,TH3,ratio=0.50
+Rodent,Thyroid,Rat ca. type 16-4,Cancer,-25.9,0.6(SEM),23,S12_Jamakosmanovic1968,TH3,ratio=0.55
+Rodent,Thyroid,Rat ca. type 1-3,Cancer,-26.6,0.8(SEM),14,S12_Jamakosmanovic1968,TH3,ratio=0.56
+Rodent,3T3,Mouse Swiss 3T3,Normal,-12.3,0.9(SEM),44,S37_Killion1984,3T1,
+Rodent,3T3,Mouse Swiss Py3T3 transformed,Cancer,-35.2,1.6(SEM),52,S37_Killion1984,3T1,ratio=2.86 Py转化超极化
+Rodent,Muscle,Rat normal muscle fibers,Normal,-95.6,5.7,80,S41_Balitsky1964,MU1,跨物种(鼠正常vs鼠癌)
+Rodent,Muscle,Rhabdomyosarcoma mouse,Cancer,-16.3,4.1,156,S41_Balitsky1964,MU1,ratio=0.17 跨物种保守使用
+# ====== 无正常对照的人类癌RMP ======
+Human,Liver,HCC stem cells,Cancer,-7,1.3(SEM),30,S18_Bautista2017,,癌干细胞极低RMP
+Human,Liver,CD133+ Huh-7 tumor initiating stem cells,Cancer,-4,1.8,,S19_Bautista2014,,癌干细胞极低RMP
+Human,Lung,Small cell carcinoma of lung,Cancer,-32.8,3.5,15,S17_McCann1981,,SCLC比A549(-10)极化
+Human,Cervix,HeLa,Cancer,-11.9,0.29(SEM),113,S15_Borle1968,,
+Human,Blood,Shay chloroleukemic tumor cell,Cancer,-9.2,0.4(SEM),,S16_Schaefer1972,,
+Human,Breast,Normal breast cells,Normal,-16.2,2.8,8,S9_Marino1994,,原代正常乳腺(非MCF10A)
+# ====== 无配对正常的人类正常RMP ======
+Human,Blood,Red blood cell,Normal,-8,0.21(SEM),20-25,S6_Jay1969,,
+Human,Blood,Cultured human monocytes,Normal,-35.1,13.9,,16,S7_Ince1983,,
+Human,Blood,Macrophage,Normal,-14.5,5,,,S13_Gallin1977,,
+Human,Fibroblast,Human fibroblast,Normal,-73.4,1(SEM),14,S14_Swift1968,,
+Human,Brain,Reactive human glia,Normal,-70,10,305,S8_Picker1981,,
+Human,Thyroid,Goitrous diffuse toxic,Normal,-39.2,1.5(SEM),12,S12_Jamakosmanovic1968,良性增生
+Human,Thyroid,Goitrous nodular nontoxic,Normal,-40,1.3(SEM),12,S12_Jamakosmanovic1968,良性增生
+Human,Thyroid,Thyroid adenomatous (benign),Benign,-37.3,1.8(SEM),6,S12_Jamakosmanovic1968,良性腺瘤
+# ====== 啮齿正常对照 ======
+Rodent,Liver,Rat liver,Normal,-53,,,,S32_Claret1970,,
+Rodent,Pancreas,Pancreatic acinar cells mouse,Normal,-41.2,1.4(SEM),*130,S29_Dean1972,,
+Rodent,Salivary,Salivary acinar cells rat,Normal,-28,1.4(SEM),61,S30_Schneyer1965,,
+Rodent,Ureter,Ureter cells guinea pig,Normal,-57.7,0.6(SEM),50,S31_Washizu1968,,
+Rodent,Ovary,Chinese hamster ovary,Normal,-63.7,2.9,85,S42_Cone1973,,
+Rodent,Aorta,Rabbit aorta,Normal,-55,8,72,S24_Mekata1974,,
+Rodent,Thyroid,Rabbit thyroid,Normal,-43,,,,S25_Williams1966,,
+Rodent,Thyroid,Rat thyroid,Normal,-51.6,15,118,S28_Woodbury1963,,
+Rodent,Thyroid,Guinea pig thyroid,Normal,-49.9,15.4,91,S28_Woodbury1963,,
+Rodent,Brain,Normal glia (cerebral cortex) guinea pig,Normal,-71,8,471,S8_Picker1981,,
+Rodent,Leydig,Rat Leydig cells,Normal,-37.6,0.7(SEM),165,S38_Joffre1984,,
+Rodent,Leydig,Mouse Leydig cells,Normal,-27,9,19,S39_Kawa1987,,

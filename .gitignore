@@ -1,0 +1,28 @@
+# ===== edition1 提交仓库 .gitignore =====
+# 目的：`git add .` 只收提交集（正文/参考文献/图/表/脚本），不收内部备份与工作注。
+
+# 重排/改名备份与预览目录（B4/B5/B8/B9、py 改名备份）
+_b4_backup_*/
+_b5_backup_*/
+_b8_backup_*/
+_b9_backup_*/
+_b4_preview/
+_py_rename_backup_*/
+
+# 内部复核文件
+_nested_*
+
+# 翻译契约（内部工作注，不进提交）
+_translation/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# refs 内部/陈旧文件：旧草稿、备份、构建中间产物、工具脚本
+refs/references.md
+refs/final_references.md.bak_*
+refs/final_references.tsv.bak_*
+refs/citation_dict.tsv
+refs/final_bibliography_summary.txt
+refs/_*
