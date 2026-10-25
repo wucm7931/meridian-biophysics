@@ -1,9 +1,9 @@
-# SI Table S4 — Same-lineage RMP/R gradients: primary-literature data excerpts
+# SI Data 4: Same-lineage RMP/R gradients: primary-literature data excerpts
 
 > **Related section**: main text Section III C (R and cell lifespan: the monotonic gradient within a lineage)
 > **Principle**: across types, \|RMP\| has no statistical relation to lifespan; within a single lineage, R increases monotonically along the differentiation/maturation axis
 > **Data status**: ⚠️ same-lineage data points are sparse and measurement methods are not standardized. The following are the currently available data; the conclusion belongs to the mechanistic-inference layer with experimental anchoring.
-> **Symbols**: R = \|RMP\|/100 (defined in SI Table S1).
+> **Symbols**: R = \|RMP\|/100 (defined in Data 1).
 
 ---
 
@@ -26,7 +26,7 @@
 
 > ⚠️ The hair-cell-like is a **cross-germ-layer transdifferentiation** (mesodermal MSC → ectodermal hair cell), not a "proliferation→differentiation" developmental axis within a single normal lineage; the −11.9/−59.0 mV are from Peyvandi 2025 whole-cell patch clamp (plasma-membrane RMP, not mitochondrial). Its value lies in that, even across germ-layer transdifferentiation, the differentiation direction remains consistent with the same-lineage case (differentiation → hyperpolarization → R↑), serving only as a generalization corroboration of "the differentiation direction is consistent", not a test of the "same-lineage R↑" hypothesis.
 
-## Lineage 3: small-intestinal epithelium — crypt → villus-tip differentiation gradient
+## Lineage 3: small-intestinal epithelium: crypt → villus-tip differentiation gradient
 
 | State | R | RMP (mV) | Method | Channel mechanism | PMID | Source |
 |------|:---:|:---:|------|------|------|------|
@@ -35,7 +35,7 @@
 
 ⚠️ The continuous RMP-gradient data along the intestinal crypt–villus axis come from multiple animal models (rat, rabbit, guinea pig); human in-situ data are extremely scarce.
 
-## Lineage 4: epidermis — basal → stratum corneum differentiation
+## Lineage 4: epidermis: basal → stratum corneum differentiation
 
 | State | R | RMP (mV) | Method | Channel mechanism | PMID | Source |
 |------|:---:|:---:|------|------|------|------|
@@ -44,7 +44,7 @@
 
 ⚠️ The methodological challenge of epidermal RMP measurement is enormous (keratinized barrier, mixed cell layers); the existing values are mainly animal-model data and in-vitro keratinocyte cultures.
 
-## Lineage 5: glial cells — glioma → normal glia (⚠️ cancer–normal gradient, not a developmental lineage)
+## Lineage 5: glial cells: glioma → normal glia (⚠️ cancer–normal gradient, not a developmental lineage)
 
 > ⚠️ **Nature of the data**: this "lineage" is actually the **glioma grades I–IV vs. normal glia** measured by Picker 1981 within the same study — a cancer–normal gradient, not a "proliferation→differentiation" developmental axis within a single normal glial lineage. It overlaps completely with the glioma-grade gradient of main text Section III C, and is retained here only as cross-lineage directional corroboration, not as independent developmental-lineage evidence (the main text Section III C table has added a footnote annotation).
 
@@ -53,7 +53,7 @@
 | Glioblastoma (grade IV) | ~0.40 | ~−40 | microelectrode | low Kir4.1 | 6267226 | Picker 1981 J Neurosurg |
 | Normal glia (reference) | ≈0.69 | ≈−69 | microelectrode | high Kir4.1 expression | 6267226 | ibid. |
 
-## Lineage 6 (reference): neurons — postnatal development (infant → young adult)
+## Lineage 6 (reference): neurons: postnatal development (infant → young adult)
 
 | State | R | RMP (mV) | Method | Channel mechanism | PMID | Source |
 |------|:---:|:---:|------|------|------|------|
@@ -71,7 +71,7 @@
 
 ---
 
-> **References** (SI-S4)
+> **References** (SI Data 4)
 > 1. Sundelacruz S, Levin M, Kaplan DL. PLoS ONE 2008;3(11):e3737. PMID: 19011685
 > 2. Picker S et al. J Neurosurg 1981;55:347–363. PMID: 6267226
 > 3. [withdrawn] Tanaka Y, Ando S. Brain Res 1990;506(1):46–52. PMID: 2154278 (actually aging depolarization, originally mislabeled under Lineage 6 "neonatal → mature"; correct use = aging depolarization = F mode, see Tanaka and Ando, 1990 in the main text)

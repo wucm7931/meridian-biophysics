@@ -1,4 +1,4 @@
-# SI Table S2 — Extraction and organization of the paired data from the Srivastava 2021 meta-analysis
+# SI Data 2: Extraction and organization of the paired data from the Srivastava 2021 meta-analysis
 
 > **Related sections**: main text Section III C (Srivastava regression), Methods Section VII B (regression extraction)
 > **Data source**: Srivastava P, Kane A, Harrison C, Levin M. *Bioelectricity* 2021;3(1):42–67. PMID: 34476377 (Supplementary Table S1)
@@ -42,7 +42,7 @@ The mixed-effects regression reported by Srivastava 2021 is $V_{mem}^{cancer} - 
 | MU1 | rodent | muscle | rat muscle fiber | 95.6 | rhabdomyosarcoma | 16.3 | 0.17 | Balitsky 1964 |
 | 3T1 | rodent | 3T3 | Swiss 3T3 | 12.3 | Py3T3 transformant | 35.2 | **2.86 (hyperpolarized)** | Killion 1984 |
 
-> **Note**: Srivastava 2021's original Supplementary Table S1 recorded the QT-35 cancer value as −40.1 mV (identical to the normal, ratio=1.00). After checking the original paper Binggeli & Weinstein 1985 (PMID 3965134), the correct QT-35 value under high-density conditions is −20.7 mV, and this table adopts the corrected value (see SI Table S1 Note 3 for details). The 2 "hyperpolarized" pairs in the table (TH1 medullary thyroid carcinoma, 3T1 Py3T3) are **not counted as clinical hyperpolarized cases**: TH1 is a cross-lineage + cross-species artifact (normal = hamster thyroid follicular epithelium vs. cancer = human parafollicular C cell), and 3T1 is an SV40 experimental transformation (the 3T3 baseline −12.3 mV is already an immortalized cell, not normal physiology) — the clinical hyperpolarized case is only HT-29 (see SI Table S1).
+> **Note**: Srivastava 2021's original Supplementary Table S1 recorded the QT-35 cancer value as −40.1 mV (identical to the normal, ratio=1.00). After checking the original paper Binggeli & Weinstein 1985 (PMID 3965134), the correct QT-35 value under high-density conditions is −20.7 mV, and this table adopts the corrected value (see Data 1 Note 3 for details). The 2 "hyperpolarized" pairs in the table (TH1 medullary thyroid carcinoma, 3T1 Py3T3) are **not counted as clinical hyperpolarized cases**: TH1 is a cross-lineage + cross-species artifact (normal = hamster thyroid follicular epithelium vs. cancer = human parafollicular C cell), and 3T1 is an SV40 experimental transformation (the 3T3 baseline −12.3 mV is already an immortalized cell, not normal physiology) — the clinical hyperpolarized case is only HT-29 (see Data 1).
 
 ---
 
@@ -69,17 +69,17 @@ The 5 grades of GL_all are merged (mean 54.6 mV), and the 11 lines of TH3 are me
 
 - **Convention A (expanded)**: retains all grade/line information (the glioma grade I→IV gradient is the core of the "graded depolarization" evidence in the main text), with larger n and smaller p; but the 5 GL grades share the same normal value −69, and the 11 TH3 lines share the same normal value −47.2, constituting partial pseudoreplication of "a shared normal reference within the same study", not strictly 29 independent measurements.
 - **Convention B (merged)**: one pair per study per tissue, eliminating the pseudoreplication, more conservative; but it erases the glioma-grade gradient, with smaller n and larger p.
-- The main-text statistics of this paper adopt the 33 pairs of SI Table S1 (same-lineage, more rigorously traced pairing + modern data); this table only serves as regression validation for the Srivastava extraction. Both conventions give p < 0.01, and the directional conclusion (systematic depolarization of cancer) is robust.
+- The main-text statistics of this paper adopt the 33 pairs of Data 1 (same-lineage, more rigorously traced pairing + modern data); this table only serves as regression validation for the Srivastava extraction. Both conventions give p < 0.01, and the directional conclusion (systematic depolarization of cancer) is robust.
 
-The pair-by-pair quality assessment is in the Level-1/2/3 provenance column and Notes 1–12 of SI Table S1.
+The pair-by-pair quality assessment is in the Level-1/2/3 provenance column and Notes 1–12 of Data 1.
 
 ---
 
-## References (SI-S2)
+## References (SI Data 2)
 
 1. Srivastava P, Kane A, Harrison C, Levin M. A Meta-Analysis of Bioelectric Data in Cancer, Embryogenesis, and Regeneration. *Bioelectricity* 2021;3(1):42–67. PMID: 34476377
 2. Binggeli R, Weinstein RC. Deficits in elevating membrane potential of rat fibrosarcoma cells after cell contact. *Cancer Res* 1985;45:235–241. PMID: 3965134
 3. Marino AA, Iliev IG, Schwalke MA, et al. Association between cell membrane potential and breast cancer. *Tumour Biol* 1994;15:82–89. PMID: 8184256
 4. Killion JJ. Electrical properties of normal and transformed mammalian cells. *Biophys J* 1984;45(3):523–528. PMID: 6324916
 
-> **Note**: The complete sources and PMIDs of the remaining references cited in this table from Srivastava 2021 Supplementary Table S1 (Lash 1955, Tokuoka 1957, Jamakosmanovic 1968, Sand 1986, Picker 1981, Chowdhury 1973, Binggeli & Cameron 1980, Balitsky 1964, etc.) are in the SI Table S1 reference list #1–38.
+> **Note**: The complete sources and PMIDs of the remaining references cited in this table from Srivastava 2021 Supplementary Table S1 (Lash 1955, Tokuoka 1957, Jamakosmanovic 1968, Sand 1986, Picker 1981, Chowdhury 1973, Binggeli & Cameron 1980, Balitsky 1964, etc.) are in the Data 1 reference list #1–38.
