@@ -46,7 +46,7 @@
 
 ## Lineage 5: glial cells: glioma → normal glia (⚠️ cancer–normal gradient, not a developmental lineage)
 
-> ⚠️ **Nature of the data**: this "lineage" is actually the **glioma grades I–IV vs. normal glia** measured by Picker 1981 within the same study — a cancer–normal gradient, not a "proliferation→differentiation" developmental axis within a single normal glial lineage. It overlaps completely with the glioma-grade gradient of main text Section III C, and is retained here only as cross-lineage directional corroboration, not as independent developmental-lineage evidence (the main text Section III C table has added a footnote annotation).
+> ⚠️ **Nature of the data**: this "lineage" is actually the **glioma grades I–IV vs. normal glia** measured by Picker 1981 within the same study — a cancer–normal gradient, not a "proliferation→differentiation" developmental axis within a single normal glial lineage. It overlaps completely with the glioma-grade gradient of main text Section III C, and is retained here only as cross-lineage directional corroboration, not as independent developmental-lineage evidence.
 
 | State | R | RMP (mV) | Method | Channel mechanism | PMID | Source |
 |------|:---:|:---:|------|------|------|------|
@@ -72,13 +72,12 @@
 ---
 
 > **References** (SI Data 4)
-> 1. Sundelacruz S, Levin M, Kaplan DL. PLoS ONE 2008;3(11):e3737. PMID: 19011685
-> 2. Picker S et al. J Neurosurg 1981;55:347–363. PMID: 6267226
-> 3. [withdrawn] Tanaka Y, Ando S. Brain Res 1990;506(1):46–52. PMID: 2154278 (actually aging depolarization, originally mislabeled under Lineage 6 "neonatal → mature"; correct use = aging depolarization = F mode, see Tanaka and Ando, 1990 in the main text)
-> 4. Barzó P, Szöts I, Tóth M, et al. eLife 2025;13:RP100390. PMID: 40152903
-> 5. Mauro TM, et al. 1990 (membrane potential and differentiation of human keratinocytes cultured in low calcium). PMID: 1690740
-> 6. Koegel H, Alzheimer C. Expression and biological significance of Ca²⁺-activated ion channels in human keratinocytes. FASEB J 2001. PMID: 11149902
-> 7. Gönczi M, et al. Exp Dermatol 2007;16:302–310. PMID: 17359336
-> 8. Positional dependence of enterocyte membrane potential in hamster and rabbit enterocytes. Comp Biochem Physiol 1984. PMID: 6149040
-> 9. A microelectrode study of responses to secretagogues by epithelial cells on villus and crypt of rat small intestine. Am J Physiol 1989. PMID: 2782407
-> 10. Peyvandi AA, Davoudi S, Bazgir N, et al. A time course analysis of the electrophysiological and gene expression properties during differentiation of hair cell-like cells in culture. Exp Cell Res 2025;452(2):114775. PMID: 41016575
+> 1. Sundelacruz S, Levin M, Kaplan DL. PLoS ONE 2008;3(11):e3737. PMID: 19011685 DOI: 10.1371/journal.pone.0003737 (= main reference [119])
+> 2. Picker S et al. J Neurosurg 1981;55:347–363. PMID: 6267226 DOI: 10.3171/jns.1981.55.3.0347 (= main reference [116])
+> 3. Barzó P, Szöts I, Tóth M, et al. eLife 2025;13:RP100390. PMID: 40152903 DOI: 10.7554/eLife.100390 (= main reference [110])
+> 4. Mauro TM, et al. 1990 (membrane potential and differentiation of human keratinocytes cultured in low calcium). PMID: 1690740 DOI: 10.1002/jcp.1041430103
+> 5. Koegel H, Alzheimer C. Expression and biological significance of Ca²⁺-activated ion channels in human keratinocytes. FASEB J 2001. PMID: 11149902 DOI: 10.1096/fj.00-0055com
+> 6. Gönczi M, et al. Exp Dermatol 2007;16:302–310. PMID: 17359336 DOI: 10.1111/j.1600-0625.2006.00533.x
+> 7. Positional dependence of enterocyte membrane potential in hamster and rabbit enterocytes. Comp Biochem Physiol 1984. PMID: 6149040 DOI: 10.1016/0300-9629(84)90613-3
+> 8. A microelectrode study of responses to secretagogues by epithelial cells on villus and crypt of rat small intestine. Am J Physiol 1989. PMID: 2782407 DOI: 10.1152/ajpgi.1989.257.3.G334
+> 9. Peyvandi AA, Davoudi S, Bazgir N, et al. A time course analysis of the electrophysiological and gene expression properties during differentiation of hair cell-like cells in culture. Exp Cell Res 2025;452(2):114775. PMID: 41016575 DOI: 10.1016/j.yexcr.2025.114775 (= main reference [252])

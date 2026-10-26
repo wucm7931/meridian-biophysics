@@ -48,7 +48,7 @@ The mixed-effects regression reported by Srivastava 2021 is $V_{mem}^{cancer} - 
 
 ## Sign test (two conventions)
 
-> All sign-test p values in this table (conventions A/B and sensitivity analysis) were recomputed with a two-sided exact binomial test (`scipy.stats.binomtest`).
+> All sign-test p values in this table (conventions A/B and sensitivity analysis) were computed with a two-sided exact binomial test (`scipy.stats.binomtest`).
 
 ### Convention A: row-by-row expansion (n = 29 pairs)
 
@@ -77,9 +77,9 @@ The pair-by-pair quality assessment is in the Level-1/2/3 provenance column and 
 
 ## References (SI Data 2)
 
-1. Srivastava P, Kane A, Harrison C, Levin M. A Meta-Analysis of Bioelectric Data in Cancer, Embryogenesis, and Regeneration. *Bioelectricity* 2021;3(1):42–67. PMID: 34476377
+1. Srivastava P, Kane A, Harrison C, Levin M. A Meta-Analysis of Bioelectric Data in Cancer, Embryogenesis, and Regeneration. *Bioelectricity* 2021;3(1):42–67. PMID: 34476377 DOI: 10.1089/bioe.2019.0034 (= main reference [114])
 2. Binggeli R, Weinstein RC. Deficits in elevating membrane potential of rat fibrosarcoma cells after cell contact. *Cancer Res* 1985;45:235–241. PMID: 3965134
-3. Marino AA, Iliev IG, Schwalke MA, et al. Association between cell membrane potential and breast cancer. *Tumour Biol* 1994;15:82–89. PMID: 8184256
-4. Killion JJ. Electrical properties of normal and transformed mammalian cells. *Biophys J* 1984;45(3):523–528. PMID: 6324916
+3. Marino AA, Iliev IG, Schwalke MA, et al. Association between cell membrane potential and breast cancer. *Tumour Biol* 1994;15:82–89. PMID: 8184256 DOI: 10.1159/000217878
+4. Killion JJ. Electrical properties of normal and transformed mammalian cells. *Biophys J* 1984;45(3):523–528. PMID: 6324916 DOI: 10.1016/S0006-3495(84)84189-2
 
 > **Note**: The complete sources and PMIDs of the remaining references cited in this table from Srivastava 2021 Supplementary Table S1 (Lash 1955, Tokuoka 1957, Jamakosmanovic 1968, Sand 1986, Picker 1981, Chowdhury 1973, Binggeli & Cameron 1980, Balitsky 1964, etc.) are in the Data 1 reference list #1–38.
